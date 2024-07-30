@@ -41,10 +41,10 @@ function Hero() {
         <h2>Student</h2>
         <span>
           
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Stephan140" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
