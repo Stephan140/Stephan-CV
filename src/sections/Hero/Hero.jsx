@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
+
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -8,6 +9,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
+
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -19,7 +21,10 @@ function Hero() {
 
   return (
     <section id="hero" className={styles.container}>
+      
       <div className={styles.colorModeContainer}>
+        <br />
+        <br />
         <img
           src={heroImg}
           className={styles.hero}
@@ -40,7 +45,6 @@ function Hero() {
         </h1>
         <h2>Student</h2>
         <span>
-          
           <a href="https://github.com/Stephan140" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -49,8 +53,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-         My passion is to create. I love photography,videography and programming.
-         One day I want to combine the three componets.
+          My passion is to create. I love photography,videography and programming.
+          One day I want to combine the three components.
         </p>
         <a href={CV} download>
           <button className="hover">CV</button>
@@ -59,5 +63,5 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;
+  
+  export default Hero;

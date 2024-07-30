@@ -10,6 +10,7 @@
   .hero {
     max-width: 200px;
   }
+  
 
   span {
     display: flex;
@@ -57,6 +58,7 @@
   position: relative;
 }
 
+
 .colorMode {
   position: absolute;
   right: 0;
@@ -69,6 +71,8 @@
 
 .description {
   max-width: 24ch;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .info {
@@ -97,4 +101,5 @@
       width: 400px;
     }
   }
+
 }
